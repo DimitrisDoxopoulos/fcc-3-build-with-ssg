@@ -3,7 +3,7 @@ module.exports = function(config) {
     config.addPassthroughCopy ("./src/js");
     config.addPassthroughCopy ("./src/css");
 
-    config.setBrowserSyncConfig({
+    config.setBrowserSyncConfig ({
         https: {
             key: '/etc/localhost.key',
             cert: '/etc/localhost.crt'
